@@ -13,6 +13,7 @@
 		CE93446121FF28F400D33F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE93446021FF28F400D33F6C /* Assets.xcassets */; };
 		CE93446421FF28F400D33F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE93446221FF28F400D33F6C /* LaunchScreen.storyboard */; };
 		CE93446721FF28F400D33F6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93446621FF28F400D33F6C /* main.m */; };
+		CE93446F21FF2B0D00D33F6C /* ThisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93446E21FF2B0D00D33F6C /* ThisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CE93446321FF28F400D33F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE93446521FF28F400D33F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE93446621FF28F400D33F6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE93446D21FF2B0D00D33F6C /* ThisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThisViewController.h; sourceTree = "<group>"; };
+		CE93446E21FF2B0D00D33F6C /* ThisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				CE93445721FF28DF00D33F6C /* AppDelegate.h */,
 				CE93445821FF28DF00D33F6C /* AppDelegate.m */,
 				CE93445A21FF28DF00D33F6C /* ViewController.h */,
+				CE93446D21FF2B0D00D33F6C /* ThisViewController.h */,
+				CE93446E21FF2B0D00D33F6C /* ThisViewController.m */,
 				CE93445B21FF28DF00D33F6C /* ViewController.m */,
 				CE93445D21FF28E000D33F6C /* Main.storyboard */,
 				CE93446021FF28F400D33F6C /* Assets.xcassets */,
@@ -143,6 +148,7 @@
 			files = (
 				CE93445C21FF28DF00D33F6C /* ViewController.m in Sources */,
 				CE93446721FF28F400D33F6C /* main.m in Sources */,
+				CE93446F21FF2B0D00D33F6C /* ThisViewController.m in Sources */,
 				CE93445921FF28DF00D33F6C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
