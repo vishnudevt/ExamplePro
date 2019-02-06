@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSString * vava;
+    NSString * vavad;
+    NSString * vavaf;
+    NSLog(@"vavasll  %@",vava);
     
 }
 
